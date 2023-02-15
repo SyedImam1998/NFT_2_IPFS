@@ -1,7 +1,7 @@
 import React from "react";
 import * as IPFS from "ipfs-core";
 import "./App.css";
-import Popup from "./components/popup";
+import Popup from "./components/Popup";
 
 const App = () => {
   const [props, setProps] = React.useState([
