@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.app{
+  width: 100%;
+  height: min-content;
+  font-family: 'Poppins', sans-serif;;
+  
+}
+.app div{
+  width: max-content;
+  margin: 0 auto;
+}
+.app h2{
+  width: max-content;
+  margin: 0 auto;
+  font-weight: bolder;
+  font-size: 29px;
+  
+}
+
+input, textarea{
+  font-family: 'Poppins', sans-serif;;
+  padding: 10px;
+  margin-right:5px;
+  margin-bottom: 10px;
+  outline: none;
+  border: 2px solid rgb(229,232,235);
+  border-radius: 10px;
+  min-width: 300px;
+}
+input:hover, textarea:hover{
+  box-shadow: 0px 0px 3px rgb(87, 87, 87);
+}
+label{
+  cursor: pointer;
+}
+div.imageArea{
+  width:200px;
+  height: 200px;
+  border: 3px dashed rgb(194, 194, 194);
+  border-radius: 30px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+.uploadBtn{
+  padding: 15px;
+  min-width: 200px;
+  font-weight: 600;
+  background: blue;
+  color:white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.propsbtn{
+  padding: 10px;
+  min-width: 100px;
+  font-weight: 600;
+  background: blue;
+  color:white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+  
+.propsbtn:active, .uploadBtn:active{
+  transform: translateY(5px);
+}
+
+div.popupParent{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.Popup{
+width: 30%;
+height: max-content;
+background: white;
+border: 1px solid white;
+border-radius:20px ;
+}
+
+div.url{
+  white-space: nowrap; 
+  width: 90%; 
+  padding:2%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  border: 1px solid #000000;
+
+}
+
+.Popup div button{
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 600;
+  background-color: blue;
+  outline:none;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.Popup div button:active{
+  transform: translateY(5px);
+}
+
+@keyframes coffee-ani {
+  from {bottom: 50px;}
+  to {bottom: 70px;}
+}
+.coffee{
+  cursor: pointer;
+  position: fixed;
+  bottom: 50px;
+  right: 80px;
+  animation: coffee-ani 1s  infinite;
+  animation-direction: alternate-reverse;
+}
