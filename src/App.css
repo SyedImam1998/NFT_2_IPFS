@@ -1,19 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 .app{
   width: 100%;
   height: min-content;
   font-family: 'Poppins', sans-serif;;
   
 }
+
 .app div{
   width: max-content;
   margin: 0 auto;
 }
-.app h2{
-  width: max-content;
-  margin: 0 auto;
+@media (width<350px) {
+  .app div{
+    width: 100%;
+    margin: 0 auto;
+  }
+  label{
+    display: none;
+  }
+
+  
+}
+div.title{
+  width: 100%;
+}
+ h2{
+  width: 100%;
+  /* margin: 0 auto; */
   font-weight: bolder;
   font-size: 29px;
+  text-align: center;
   
 }
 
@@ -51,6 +69,7 @@ div.imageArea{
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 .propsbtn{
   padding: 10px;

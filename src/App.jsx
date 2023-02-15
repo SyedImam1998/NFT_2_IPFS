@@ -103,7 +103,10 @@ const App = () => {
         </a>
 
       <Popup setopen={setopen} open={open} url={url}></Popup>
+      <div className="title">
+
       <h2>Upload NFT To IPFS</h2>
+      </div>
       <br></br>
       
 
