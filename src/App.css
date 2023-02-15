@@ -12,7 +12,7 @@
   width: max-content;
   margin: 0 auto;
 }
-@media (width<350px) {
+@media (width<450px) {
   .app div{
     width: 100%;
     margin: 0 auto;
