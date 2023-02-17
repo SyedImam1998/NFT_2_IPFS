@@ -94,6 +94,8 @@ div.popupParent{
   display: flex;
   justify-content: center;
   align-items: center;
+  top: 0;
+  left: 0;
 }
 div.Popup{
 width: 30%;
@@ -106,10 +108,11 @@ border-radius:20px ;
 div.url{
   white-space: nowrap; 
   width: 90%; 
-  padding:2%;
+  padding:4%;
   overflow: hidden;
   text-overflow: ellipsis; 
   border: 1px solid #000000;
+  border-radius: 10px;
 
 }
 
